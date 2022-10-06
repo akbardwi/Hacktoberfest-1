@@ -102,5 +102,8 @@ const search_files = async (folders, query) => {
     api.listen(process.env.PORT || 3000, function () {
         console.log('API Started')
     })
+
+    let nim = 1019181615;
+    console.log(nim);
 })();
 
